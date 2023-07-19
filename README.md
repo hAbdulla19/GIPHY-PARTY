@@ -36,9 +36,9 @@ The GIPHY Party Was Designed To Assist Users With Finding Gifs and Being Able to
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Hasan Abdulla](https://www.linkedin.com/in/hasan-abdulla1903/) - ishabdulla26@gmail.com
+[Hasan Abdulla](https://www.linkedin.com/in/hasan-abdulla1903/) - ishabdulla26@gmail.com
 
-Project Link: [https://github.com/hAbdulla19/MEME-GENERATOR](https://giphy-party.hasanabdulla.repl.co/)
+Project Link: [https://github.com/hAbdulla19/GIPHY-PARTY](https://giphy-party.hasanabdulla.repl.co/)
 
 ## Contributors
 
