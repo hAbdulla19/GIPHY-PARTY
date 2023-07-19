@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;700&family=Tektur:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        .card {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .card a {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>GIPHY PARTY</h1>
+        <div class="card">
+            <a class="github" href="https://github.com/hAbdulla19">
+                <svg viewBox="0 0 16 16" class="bi bi-github" fill="currentColor" height="16" width="16"
+                    xmlns="http://www.w3.org/2000/svg" style="color: white">
+                    <path fill="white"
+                        d="M8 .298a8 8 0 0 0-2.54 15.597c.4.074.548-.174.548-.387 0-.191-.007-.696-.01-1.366-2.227.48-2.695-1.076-2.695-1.076A2.127 2.127 0 0 0 3.256 11.2c-.728-.497.056-.487.056-.487.805.056 1.228.825 1.228.825.714 1.24 1.874.88 2.33.671.072-.517.278-.87.505-1.07-1.768-.2-3.623-.884-3.623-3.943 0-.87.31-1.584.824-2.142-.083-.201-.36-1.014.08-2.112 0 0 .67-.214 2.2.82.638-.178 1.32-.267 2-.27.68.003 1.362.092 2 .27 1.527-1.034 2.196-.82 2.196-.82.44 1.098.165 1.911.08 2.112.514.558.824 1.272.824 2.142 0 3.067-1.86 3.74-3.633 3.935.286.247.543.733.543 1.48 0 1.068-.01 1.93-.01 2.193 0 .214.144.467.55.386A8.003 8.003 0 0 0 8 .298Z">
+                    </path>
+                </svg>
+            </a>
+            <a class="gmail" href="mailto:ishabdulla26@gmail.com">
+                <svg style="color: white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="40" zoomAndPan="magnify" viewBox="0 0 30 30.000001" height="40"
+                    preserveAspectRatio="xMidYMid meet" version="1.0">
+                    <defs>
+                        <clipPath id="id1">
+                            <path
+                                d="M 3.460938 6.5625 L 26.539062 6.5625 L 26.539062 24.707031 L 3.460938 24.707031 Z M 3.460938 6.5625 "
+                                clip-rule="nonzero" fill="white"></path>
+                        </clipPath>
+                    </defs>
+                    <g clip-path="url(#id1)">
+                        <path fill="white"
+                            d="M 24.230469 11.101562 L 15 16.769531 L 5.769531 11.101562 L 5.769531 8.832031 L 15 14.503906 L 24.230469 8.832031 Z M 24.230469 6.5625 L 5.769531 6.5625 C 4.492188 6.5625 3.472656 7.578125 3.472656 8.832031 L 3.460938 22.441406 C 3.460938 23.695312 4.492188 24.707031 5.769531 24.707031 L 24.230469 24.707031 C 25.507812 24.707031 26.539062 23.695312 26.539062 22.441406 L 26.539062 8.832031 C 26.539062 7.578125 25.507812 6.5625 24.230469 6.5625 "
+                            fill-opacity="1" fill-rule="nonzero"></path>
+                    </g>
+                </svg>
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/hasan-abdulla1903/">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor" style="color: white">
+                    <path
+                        d="M22.79,0H1.21C0.542,0,0,0.543,0,1.21v21.58C0,23.457,0.542,24,1.21,24h21.58c0.668,0,1.21-0.543,1.21-1.21V1.21   C24,0.543,23.457,0,22.79,0z M7.52,20.033h-4.4V9.6h4.4V20.033z M5.62,8.433h-0.029c-1.451,0-2.399-1.004-2.399-2.261   c0-1.275,0.971-2.26,2.459-2.26c1.487,0,2.399,0.985,2.428,2.26C8.108,7.428,7.158,8.433,5.62,8.433z M21.586,20.033h-4.379   v-6.297c0-1.568-0.559-2.637-1.964-2.637c-1.07,0-1.703,0.725-1.979,1.425c-0.1,0.244-0.125,0.579-0.125,0.918V20.033h-4.4   c0,0,0.058-12.284,0-13.433h4.4v1.9c0.586-0.904,1.637-2.199,3.982-2.199c2.894,0,5.058,1.879,5.058,5.918V20.033z" />
+                </svg>
+            </a>
+        </div>
+        <hr>
+        <br>
+        <br>
+        <center>
+            <form id="searchform">
+                <center>
+                    <br>
+                    <input type="text" id="search" placeholder="SEARCH FOR A GIF" name="text" class="input"
+                        autocomplete="off">
+                    <br>
+                    <br>
+                    <br>
+                    <div id="button-container">
+                        <button id="searchButton" class="orngBtn">SEARCH GIPHY</button>
+                        <button id="removeButton" class="orngBtn">REMOVE GIF</button>
+
+                    </div>
+                </center>
+            </form>
+            <div id="gif-area"></div>
+        </center>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

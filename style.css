@@ -1,0 +1,302 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1F305E;
+}
+
+/* ###### Beginning of Copy Icon ###### */
+/* .Btn {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: none;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.164);
+    cursor: pointer;
+}
+
+.text {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(2, 153, 153);
+}
+
+.svgIcon {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: teal;
+}
+
+.Btn:hover .text {
+    background-color: rgb(0, 133, 133);
+}
+
+.Btn:hover .svgIcon {
+    background-color: rgb(0, 105, 105);
+} */
+
+/* ###### End of Copy Icon ###### */
+
+@media screen and (min-width: 1024px) {
+    ...
+}
+
+@media screen and (min-width: 767px) and (max-width: 1025px) {
+    ...
+}
+
+@media screen and (max-width: 767px) {
+    ...
+}
+
+.pixelated-scroll {
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated;
+    background-image: url(https://codeshack.io/web/img/uploads/pixelated-buildings.png);
+    background-size: 50%;
+    background-repeat: repeat-x;
+    background-position: left bottom;
+    border-bottom: 100px solid black;
+    box-sizing: border-box;
+    animation: slide 10s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        background-position: left bottom;
+    }
+
+    to {
+        background-position: 100% bottom;
+    }
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Tektur', cursive;
+    font-size: 50px;
+    margin-left: 6%;
+    color: white;
+    font-weight: 300px;
+}
+
+#gif-area {
+    padding: 10px;
+    margin: 1.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#gif-area .col {
+    width: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#gif-area .col img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.orngBtn {
+    position: relative;
+    width: 48%;
+    height: 5em;
+    /* display: inline-block; */
+    cursor: pointer;
+    outline: none;
+    /* border: 0; */
+    /* vertical-align: middle; */
+    text-decoration: none;
+    font-family: inherit;
+    /* font-size: 15px; */
+    margin: 1%;
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 17px;
+    font-weight: bold;
+    /* border: none; */
+    background: var(--button_outline_color);
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 0.75em 1.5em;
+    color: var(--button_outline_color);
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+    background: linear-gradient(45deg, #FF5F6D, #FFC371);
+}
+
+.orngBtn:hover {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+.orngBtn:active {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}
+
+.input {
+    border-radius: 20px;
+    outline: 5px solid #FEBF00;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #e2e2e2;
+    outline-offset: 3px;
+    padding: 20px 1rem;
+    transition: 0.25s;
+    height: 12%;
+    width: 22%;
+}
+
+.input:focus {
+    outline-offset: 5px;
+    background-color: #fff;
+}
+
+.card {
+    display: flex;
+    height: 50px;
+    width: 270px;
+    /* margin-left: 1158px; */
+    margin-top: 1.2%;
+    position: absolute;
+    top: 30px;
+    left: 65%;
+}
+
+.card svg {
+    position: absolute;
+    display: flex;
+    width: 60%;
+    height: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
+    transition: opacity 0.25s;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.card .social-link1,
+.card .social-link2,
+.card .social-link3,
+.card .social-link4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    color: whitesmoke;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.25s;
+    border-radius: 50px;
+}
+
+.card svg {
+    transform: scale(1);
+}
+
+.card .social-link1:hover {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link2:hover {
+    background-color: #00ccff;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link3:hover {
+    background-color: #5865f2;
+    animation: bounce_613 0.4s linear;
+}
+
+.card .social-link4:hover {
+    background-color: #12a50b;
+    animation: bounce_613 0.4s linear;
+}
+
+@keyframes bounce_613 {
+    40% {
+        transform: scale(1.4);
+    }
+
+    60% {
+        transform: scale(0.8);
+    }
+
+    80% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.gif-container {
+    position: relative;
+}
+
+.copy-button {
+    position: absolute;
+    color: white;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+#suggestions-container {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-height: 200px;
+    overflow-y: auto;
+    z-index: 1;
+    display: none;
+}
+
+.suggestion {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.suggestion:hover {
+    background-color: #f1f1f1;
+}
+
+#button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    margin: 0 auto;
+}
