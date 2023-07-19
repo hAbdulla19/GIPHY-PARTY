@@ -31,7 +31,7 @@
 
 <img src="Images/SS.png" alt="SS" width="1000">
 
-The Meme Generator Is An Application That Was Designed For Users Who Want to Create Funny Memes For Their Personal Websites, Social Media Accounts, and More!
+The GIPHY Party Was Designed To Assist Users With Finding Gifs and Being Able to Use Such Gifs Across Any Social Media Platform Ever! "GIPHY Party" Was Designed to Be Easily Accesible for All and Easy to Use :)
 
 <!-- CONTACT -->
 ## Contact
