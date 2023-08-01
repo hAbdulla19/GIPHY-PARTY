@@ -5,7 +5,7 @@
   <h3 align="center">GIPHY PARTY</h3>
 
   <p align="center">
-    A Search Engine Built For Searching Gifs! "GIPHY PARTY" Allows Users to Search For Thousands Upon Thousands of Gifs Based on Their Emotion and Event!
+    A Search Engine Built For Searching Gifs! "GIPHY PARTY" Allows Users to Search For Millions Upon Millions of Gifs Based on Their Emotions, Event, or Mood!
     <br />
     <a href="https://giphy-party.hasanabdulla.repl.co/"><strong>HOME PAGE</strong></a>
   </p>
@@ -31,7 +31,7 @@
 
 <img src="Images/SS.png" alt="SS" width="1000">
 
-The GIPHY Party Was Designed To Assist Users With Finding Gifs and Being Able to Use Such Gifs Across Any Social Media Platform Ever! "GIPHY Party" Was Designed to Be Easily Accesible for All and Easy to Use :)
+The GIPHY Party Was Designed To Assist Users With Finding Gifs and Being Able to Use Such Gifs Across Any Social Media Platform Ever! "GIPHY Party" Was Designed to Be Easily Accesible for All and Easy to Use. Using a GIPHY SDK API key, the Platform Delivered Access to Any Type of Gif That May be Used on the Internet Today!
 
 <!-- CONTACT -->
 ## Contact
